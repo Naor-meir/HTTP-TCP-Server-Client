@@ -32,3 +32,6 @@ This project implements a custom HTTP server and client in Python. The server li
 ### Server
 ```bash
 python3 server.py <port>
+Example:
+python3 server.py 8080
+
