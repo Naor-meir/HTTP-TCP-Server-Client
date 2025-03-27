@@ -30,8 +30,21 @@ This project implements a custom HTTP server and client in Python. The server li
 ## How to Run
 
 ### Server
+The server starts listening for incoming requests on the specified port.
 ```bash
 python3 server.py <port>
+'''
 Example:
+```bash
 python3 server.py 8080
+'''
+### Client 
+After connecting, enter the file path you wish to request. The client will handle unexpected disconnections by attempting to reconnect and resend the previous request.
+''' bash
+python3 client.py <server-ip> <server-port>
+'''
+Example :
+''' bash
+python3 client.py 127.0.0.1 8080
+
 
