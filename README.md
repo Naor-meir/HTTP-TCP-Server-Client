@@ -47,4 +47,23 @@ Example :
 ''' bash
 python3 client.py 127.0.0.1 8080
 
+Client
+After connecting, enter the file path you wish to request.
+The client will handle unexpected disconnections by attempting to reconnect and resend the last request.
+
+bash
+Copy
+Edit
+python3 client.py <server-ip> <server-port>
+Example:
+
+bash
+Copy
+Edit
+python3 client.py 127.0.0.1 8080
+javascript
+Copy
+Edit
+
+
 
